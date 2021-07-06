@@ -15,5 +15,12 @@ int main(){
 		printf("%d\n",Total=rand()%6+1);
 		total=total+Total;
 	}
-		printf("total:%d\n",total);
+    printf("total:%d\n",total);
+
+    if(total>=7){
+    	printf("You won!\n");
+    }
+    else{
+    	printf("You lost...\n");
+    }
 }
