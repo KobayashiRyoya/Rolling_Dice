@@ -9,7 +9,7 @@ int main(){
 	char name[MAX];
 	srand((unsigned int)time(NULL));
 
-	printf("What is your name?\n");
+	printf("What is your name? \n");
     scanf("%s",&name);
 
     printf("Hello,%s\n",name);
